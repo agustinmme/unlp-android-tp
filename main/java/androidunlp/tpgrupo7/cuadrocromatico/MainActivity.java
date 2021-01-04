@@ -415,13 +415,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         SharedPreferences prefs = getSharedPreferences("top5", MODE_PRIVATE);
         switch (difi) {
             case 1:
-                int top1 = prefs.getInt("rank1", 9999);//"No name defined" is the default value.
+                int top1 = prefs.getInt("rank1", 9999);//
                 return top1;
             case 2:
-                int top2 = prefs.getInt("rank2", 9999); //0 is the default value.
+                int top2 = prefs.getInt("rank2", 9999); //
                 return top2;
             case 3:
-                int top3 = prefs.getInt("rank3", 9999); //0 is the default value.;
+                int top3 = prefs.getInt("rank3", 9999); //
                 return top3;
         }
         return 0;
