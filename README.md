@@ -1,2 +1,2 @@
-# Chroma-Chart
+# Juego cuadro cromatico 
 Android,java,tp
