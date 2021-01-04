@@ -31,7 +31,7 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         Bundle dato = getIntent().getExtras();
-        //seteo componentes de musica
+        //seteo  musica
         if (dato != null)//si se reciben datos
         {
             musicaa = dato.getInt("dato2");
@@ -43,7 +43,7 @@ public class Menu extends AppCompatActivity {
                 sound.seekTo(musicaa);
             }
         } else {
-            sound = MediaPlayer.create(Menu.this, R.raw.game2); //Dejo otra cancion para testear land y port musicaprueba2
+            sound = MediaPlayer.create(Menu.this, R.raw.game2); 
             sound.setLooping(true);
             sound.setVolume(0.3f, 0.3f);
         }
