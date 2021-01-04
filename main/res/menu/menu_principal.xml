@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/volumen"
+        android:icon="@drawable/ic_volume"
+        android:title="@string/fondo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fondo"
+        android:icon="@drawable/ic_brightness"
+        android:title="@string/fondo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ayuda"
+        android:title="@string/ayuda"
+        />
+    <item
+        android:id="@+id/salir"
+        android:title="@string/salir"/>
+
+</menu>

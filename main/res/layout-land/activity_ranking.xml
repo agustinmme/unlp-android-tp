@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context="androidunlp.tpgrupo7.cuadrocromatico.Ranking">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stretchColumns="*">
+
+                    <TableRow
+
+                        android:id="@+id/firstRow"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/celdaRanking"
+                            android:text="#" />
+
+                        <TextView
+                            style="@style/celdaRanking"
+                            android:text="@string/idtop" />
+
+                        <TextView
+                            style="@style/celdaRanking"
+                            android:text="@string/dificultad" />
+
+                        <TextView
+                            style="@style/celdaRanking"
+                            android:text="@string/intertop" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#E5BE01"
+                            android:text="1" />
+
+                        <TextView
+                            android:id="@+id/rn0"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingFacil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadBaja" />
+
+                        <TextView
+                            android:id="@+id/ri0"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#8A9597"
+                            android:text="2" />
+
+                        <TextView
+                            android:id="@+id/rn1"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingFacil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadBaja" />
+
+                        <TextView
+                            android:id="@+id/ri1"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#FF8A65"
+                            android:text="3" />
+
+                        <TextView
+                            android:id="@+id/rn2"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingFacil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadBaja" />
+
+                        <TextView
+                            android:id="@+id/ri2"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="4" />
+
+                        <TextView
+                            android:id="@+id/rn3"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingFacil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadBaja" />
+
+                        <TextView
+                            android:id="@+id/ri3"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="5" />
+
+                        <TextView
+                            android:id="@+id/rn4"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingFacil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadBaja" />
+
+                        <TextView
+                            android:id="@+id/ri4"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#E5BE01"
+
+                            android:text="1" />
+
+                        <TextView
+                            android:id="@+id/rn5"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingMedia"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadMedia" />
+
+                        <TextView
+                            android:id="@+id/ri5"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#8A9597"
+                            android:text="2" />
+
+                        <TextView
+                            android:id="@+id/rn6"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingMedia"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadMedia" />
+
+                        <TextView
+                            android:id="@+id/ri6"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#FF8A65"
+                            android:text="3" />
+
+                        <TextView
+                            android:id="@+id/rn7"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingMedia"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadMedia" />
+
+                        <TextView
+                            android:id="@+id/ri7"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="4" />
+
+                        <TextView
+                            android:id="@+id/rn8"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingMedia"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadMedia" />
+
+                        <TextView
+                            android:id="@+id/ri8"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="5" />
+
+                        <TextView
+                            android:id="@+id/rn9"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingMedia"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadMedia" />
+
+                        <TextView
+                            android:id="@+id/ri9"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#E5BE01"
+                            android:text="1" />
+
+                        <TextView
+                            android:id="@+id/rn10"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingDificil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadAlta" />
+
+                        <TextView
+                            android:id="@+id/ri10"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#8A9597"
+                            android:text="2" />
+
+                        <TextView
+                            android:id="@+id/rn11"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingDificil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadAlta" />
+
+                        <TextView
+                            android:id="@+id/ri11"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#FF8A65"
+                            android:text="3" />
+
+                        <TextView
+                            android:id="@+id/rn12"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingDificil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadAlta" />
+
+                        <TextView
+                            android:id="@+id/ri12"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="4" />
+
+                        <TextView
+                            android:id="@+id/rn13"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingDificil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadAlta" />
+
+                        <TextView
+                            android:id="@+id/ri13"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="5" />
+
+                        <TextView
+                            android:id="@+id/rn14"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/celdaDentroRankingDificil"
+                            android:background="#ffffff"
+                            android:text="@string/dificultadAlta" />
+
+                        <TextView
+                            android:id="@+id/ri14"
+                            style="@style/celdaDentroRanking"
+                            android:background="#ffffff"
+                            android:text="@string/inter" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:keepScreenOn="true"
+    tools:context="androidunlp.tpgrupo7.cuadrocromatico.Ayuda">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/texto2"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_marginTop="50dp"
+        android:alignmentMode="alignBounds"
+        android:columnCount="7">
+
+        <Button
+            android:id="@+id/d42"
+            style="@style/Botonesnormal"
+            android:background="@color/md_pink_50"
+
+            />
+
+        <Button
+            android:id="@+id/d43"
+            style="@style/Botonesnormal"
+            android:background="@color/md_red_50" />
+
+        <Button
+            android:id="@+id/d44"
+            style="@style/Botonesnormal"
+            android:background="@color/md_deep_purple_50" />
+
+        <Button
+            android:id="@+id/d45"
+            style="@style/Botonesnormal"
+            android:background="@color/md_indigo_50" />
+
+        <Button
+            android:id="@+id/d46"
+            style="@style/Botonesnormal"
+            android:background="@color/md_blue_50" />
+
+        <Button
+            android:id="@+id/d47"
+            style="@style/Botonesnormal"
+            android:background="@color/md_light_blue_50" />
+
+        <Button
+            android:id="@+id/d48"
+            style="@style/Botonesnormal"
+            android:background="@color/md_cyan_50" />
+
+        <Button
+            android:id="@+id/d35"
+            style="@style/Botonesnormal"
+            android:background="@color/md_pink_100"
+
+            />
+
+        <Button
+            android:id="@+id/d36"
+            style="@style/Botonesnormal"
+            android:background="@color/md_red_100"
+
+            />
+
+        <Button
+            android:id="@+id/d37"
+            style="@style/Botonesnormal"
+            android:background="@color/md_deep_purple_100" />
+
+        <Button
+            android:id="@+id/d38"
+            style="@style/Botonesnormal"
+            android:background="@color/md_indigo_100" />
+
+        <Button
+            android:id="@+id/d39"
+            style="@style/Botonesnormal"
+            android:background="@color/md_blue_100" />
+
+        <Button
+            android:id="@+id/d40"
+            style="@style/Botonesnormal"
+            android:background="@color/md_light_blue_100" />
+
+        <Button
+            android:id="@+id/d41"
+            style="@style/Botonesnormal"
+            android:background="@color/md_cyan_100" />
+
+        <Button
+            android:id="@+id/d28"
+            style="@style/Botonesnormal"
+            android:background="@color/md_pink_200" />
+
+        <Button
+            android:id="@+id/d29"
+            style="@style/Botonesnormal"
+            android:background="@color/md_red_200" />
+
+        <Button
+            android:id="@+id/d30"
+            style="@style/Botonesnormal"
+            android:background="@color/md_deep_purple_200" />
+
+        <Button
+            android:id="@+id/d31"
+            style="@style/Botonesnormal"
+            android:background="@color/md_indigo_200" />
+
+        <Button
+            android:id="@+id/d32"
+            style="@style/Botonesnormal"
+            android:background="@color/md_blue_200" />
+
+        <Button
+            android:id="@+id/d33"
+            style="@style/Botonesnormal"
+            android:background="@color/md_light_blue_200" />
+
+        <Button
+            android:id="@+id/d34"
+            style="@style/Botonesnormal"
+            android:background="@color/md_cyan_200" />
+
+        <Button
+            android:id="@+id/d21"
+            style="@style/Botonesnormal"
+            android:background="@color/md_pink_300" />
+
+        <Button
+            android:id="@+id/d22"
+            style="@style/Botonesnormal"
+            android:background="@color/md_red_300" />
+
+        <Button
+            android:id="@+id/d23"
+            style="@style/Botonesnormal"
+            android:background="@color/md_deep_purple_300" />
+
+        <Button
+            android:id="@+id/d24"
+            style="@style/Botonesnormal"
+            android:background="@color/md_indigo_300" />
+
+        <Button
+            android:id="@+id/d25"
+            style="@style/Botonesnormal"
+            android:background="@color/md_blue_300" />
+
+        <Button
+            android:id="@+id/d26"
+            style="@style/Botonesnormal"
+            android:background="@color/md_light_blue_300" />
+
+        <Button
+            android:id="@+id/d27"
+            style="@style/Botonesnormal"
+            android:background="@color/md_cyan_300" />
+
+        <Button
+            android:id="@+id/d14"
+            style="@style/Botonesnormal"
+            android:background="@color/md_pink_400" />
+
+        <Button
+            android:id="@+id/d15"
+            style="@style/Botonesnormal"
+            android:background="@color/md_red_400" />
+
+        <Button
+            android:id="@+id/d16"
+            style="@style/Botonesnormal"
+            android:background="@color/md_deep_purple_400" />
+
+        <Button
+            android:id="@+id/d17"
+            style="@style/Botonesnormal"
+            android:background="@color/md_indigo_400" />
+
+        <Button
+            android:id="@+id/d18"
+            style="@style/Botonesnormal"
+            android:background="@color/md_blue_400" />
+
+        <Button
+            android:id="@+id/d19"
+            style="@style/Botonesnormal"
+            android:background="@color/md_light_blue_400" />
+
+        <Button
+            android:id="@+id/d20"
+            style="@style/Botonesnormal"
+            android:background="@color/md_cyan_400" />
+
+        <Button
+            android:id="@+id/d7"
+            style="@style/Botonesnormal"
+            android:background="@color/md_pink_500" />
+
+        <Button
+            android:id="@+id/d8"
+            style="@style/Botonesnormal"
+            android:background="@color/md_red_500" />
+
+        <Button
+            android:id="@+id/d9"
+            style="@style/Botonesnormal"
+            android:background="@color/md_deep_purple_500" />
+
+        <Button
+            android:id="@+id/d10"
+            style="@style/Botonesnormal"
+            android:background="@color/md_indigo_500" />
+
+        <Button
+            android:id="@+id/d11"
+            style="@style/Botonesnormal"
+            android:background="@color/md_blue_500" />
+
+        <Button
+            android:id="@+id/d12"
+            style="@style/Botonesnormal"
+            android:background="@color/md_light_blue_500" />
+
+        <Button
+            android:id="@+id/d13"
+            style="@style/Botonesnormal"
+            android:background="@color/md_cyan_500" />
+
+        <Button
+            android:id="@+id/d0"
+            style="@style/Botonesnormal"
+            android:background="@color/md_pink_600" />
+
+        <Button
+            android:id="@+id/d1"
+            style="@style/Botonesnormal"
+            android:background="@color/md_red_600" />
+
+        <Button
+            android:id="@+id/d2"
+            style="@style/Botonesnormal"
+            android:background="@color/md_deep_purple_600" />
+
+        <Button
+            android:id="@+id/d3"
+            style="@style/Botonesnormal"
+            android:background="@color/md_indigo_600" />
+
+        <Button
+            android:id="@+id/d4"
+            style="@style/Botonesnormal"
+            android:background="@color/md_blue_600" />
+
+        <Button
+            android:id="@+id/d5"
+            style="@style/Botonesnormal"
+            android:background="@color/md_light_blue_600" />
+
+        <Button
+            android:id="@+id/d6"
+            style="@style/Botonesnormal"
+            android:background="@color/md_cyan_600" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="5"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/inicio"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context="androidunlp.tpgrupo7.cuadrocromatico.Menu">
+
+    <TextView
+        android:id="@+id/cuadro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:background="#80000000"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/titulo"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/croma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cuadro"
+        android:layout_centerHorizontal="true"
+        android:background="#80000000"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="@string/titulo2"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/jugar"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/croma"
+        android:background="#80000000"
+        android:onClick="play"
+        android:text="@string/play"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/baja"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/croma"
+        android:layout_toRightOf="@+id/jugar"
+        android:background="#80000000"
+        android:onClick="selec"
+        android:text="@string/nivel1"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/media"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/baja"
+        android:layout_toRightOf="@+id/jugar"
+        android:background="#80000000"
+        android:onClick="selec"
+        android:text="@string/nivel2"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/alta"
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/media"
+        android:layout_toRightOf="@+id/jugar"
+        android:background="#80000000"
+        android:onClick="selec"
+        android:text="@string/nivel3"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/croma"
+        android:layout_toRightOf="@+id/baja"
+        android:background="#80000000"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textobaja"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/croma"
+        android:layout_toRightOf="@+id/baja"
+        android:gravity="center"
+        android:text="@string/desnivel1"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textomedia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/baja"
+        android:layout_toRightOf="@+id/media"
+        android:gravity="center"
+        android:text="@string/desnivel2"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textoalta"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/media"
+        android:layout_toRightOf="@+id/media"
+        android:gravity="center"
+        android:text="@string/desnivel3"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/g7"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="creditosOnClick"
+        android:paddingLeft="25dp"
+        android:text="@string/grupo"
+        android:textColor="#80ffffff"
+        android:textSize="30dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/sonidomenu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/g7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/salir"
+        android:background="#80000000"
+        android:onClick="sonido"
+        android:src="@drawable/ic_volume" />
+
+    <ImageView
+        android:id="@+id/salir"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/g7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/rank"
+        android:background="#80000000"
+        android:onClick="salir"
+        android:src="@drawable/ic_exit" />
+
+    <ImageView
+        android:id="@+id/rank"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/g7"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="#80000000"
+        android:onClick="rank"
+        android:src="@drawable/ic_star" />
+
+</RelativeLayout>
+
+

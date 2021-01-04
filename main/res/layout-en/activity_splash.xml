@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="androidunlp.tpgrupo7.cuadrocromatico.Splash">
+
+    <ImageView
+        android:id="@+id/circulo"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/circulo" />
+
+    <TextView
+        android:id="@+id/centro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/circulo"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/centro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centro"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/titulo2"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centro2"
+        android:layout_alignBottom="@+id/circulo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/grupo7"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.juegoaentregar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="androidunlp.tpgrupo7.cuadrocromatico.Creditos"></activity>
+        <activity
+            android:name="androidunlp.tpgrupo7.cuadrocromatico.Ranking"
+            android:label="@string/ranking" />
+        <activity
+            android:name="androidunlp.tpgrupo7.cuadrocromatico.Ayuda"
+            android:label="@string/ayuda"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="androidunlp.tpgrupo7.cuadrocromatico.Menu"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="androidunlp.tpgrupo7.cuadrocromatico.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="androidunlp.tpgrupo7.cuadrocromatico.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

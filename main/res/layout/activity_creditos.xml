@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context="androidunlp.tpgrupo7.cuadrocromatico.Creditos">
+
+    <RelativeLayout
+        android:id="@+id/panelCreditos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp"
+        android:background="#80000000">
+
+        <TextView
+            android:id="@+id/textoCreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:text="@string/grupo"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/primeroCreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textoCreditos"
+            android:layout_marginTop="5dp"
+            android:text="@string/sonido"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/segundoCreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/primeroCreditos"
+            android:layout_centerInParent="true"
+            android:text="@string/texto1"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/agregadoalfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/segundoCreditos"
+            android:layout_centerInParent="true"
+            android:text="@string/texto2"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/agregadoalfinal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agregadoalfinal"
+            android:layout_centerInParent="true"
+            android:text="@string/texto3"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/terceroCreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agregadoalfinal2"
+            android:layout_centerInParent="true"
+            android:onClick="OnClickZapsplat"
+            android:text="@string/texto4"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/zapplat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/terceroCreditos"
+            android:layout_toEndOf="@+id/terceroCreditos"
+            android:layout_toRightOf="@+id/terceroCreditos"
+            android:baselineAlignBottom="true"
+            android:onClick="OnClickZapsplat"
+            android:src="@drawable/ic_open"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/cuartoCreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/terceroCreditos"
+            android:text="@string/code"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/quintoCreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cuartoCreditos"
+            android:layout_centerInParent="true"
+            android:text="T-pose"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/sextoCreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quintoCreditos"
+            android:layout_centerInParent="true"
+            android:text="T-pose"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/atras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:onClick="Atras"
+            android:text="@string/atras"
+            android:textColor="#90ffffff"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:onClick="OnClickGithub"
+            android:src="@drawable/github" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
