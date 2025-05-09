@@ -1,5 +1,5 @@
 # Juego cuadro cromatico 
-JSON,SHAREDPREFERENCE,MUSIC/SOUND,MENUS,DIALOGS,ES/EN(Acorde OS),LAYOUT Landscape and portrait.
+JSON,SHAREDPREFERENCE,SOUND,VISTAS,ES/EN(Acorde OS),LAYOUT Landscape and portrait.
 
 TEST :
 
